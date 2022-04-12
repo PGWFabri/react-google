@@ -1,0 +1,12 @@
+.container{
+    display: flex;
+    justify-content: center;
+}
+
+.container-logo{
+    padding: 140px;
+    font-size: 70px;
+    letter-spacing: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #fff;
+}

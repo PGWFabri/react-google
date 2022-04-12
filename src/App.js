@@ -1,23 +1,15 @@
-import logo from './logo.svg';
-import './App.css';
+import Logo from './components/logo/google';
+import Buscar from './components/search/buscador';
+import Pie from './components/footer/footer';
+import Menusillo from './components/menu/menu';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <Menusillo />
+      <Logo />
+      <Buscar />
+      <Pie/>
     </div>
   );
 }

@@ -1,0 +1,19 @@
+.container-grid{
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 30px;
+    display: grid;
+    gap: 20px;
+    grid-template-columns: 120px 120px 120px 120px;
+    text-align: center;
+    margin-left: 28%;
+}
+
+.container-grid div{
+    padding: 10px;
+    border: 1px solid #000;
+    cursor: pointer;
+    background-color: #fff;
+    color: #000;
+}

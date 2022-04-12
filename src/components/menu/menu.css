@@ -1,0 +1,12 @@
+.links{
+    display: flex;
+    justify-content: flex-end;
+    margin-right: 35px;
+}
+
+.links li{
+    list-style: none;
+    padding: 20px;
+    color: #fff;
+    cursor: pointer;
+}
